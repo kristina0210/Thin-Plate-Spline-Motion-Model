@@ -1,5 +1,5 @@
 dataset_params:
-  root_dir: ../moving-gif
+  root_dir: ./moving-gif
   frame_shape: null
   id_sampling: False
   augmentation_params:
@@ -10,6 +10,8 @@ dataset_params:
       size: [256, 256]
     resize_param:
       ratio: [0.9, 1.1]
+    rotation_param:
+      degrees: 180
     jitter_param:
       hue: 0.5
 
